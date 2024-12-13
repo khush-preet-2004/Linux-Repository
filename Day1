@@ -1,1 +1,11 @@
-
+ls    =
+ls -a =
+ls -l =
+cd /
+cd
+cd..
+pwd
+rmdir
+mkdir
+touch
+clear
