@@ -1,12 +1,31 @@
-ls    =
-ls -a =
-ls -l =
-cd /
-cd
-cd..
-pwd
-rmdir
-mkdir
-touch
-clear
-mkdir -p folder1/folder2/folder3
+ls    = list all files and directories
+ls -a = a means all.To display all files including hidden files.
+ls -l = To display long listing of files 
+ls -r = It will display all files and directories in reverse of aplhabetical order. 
+ls | more = To display content line by line 
+ls -t = To display all files based on last modified date and time.Most recent is at top and old are at bottom. 
+ls -rt = To display all files based on reverse of last modified date and time. Old files are at top and recent files are at bottom. 
+ls -A = A means almost all .To display all files including hidden files except . and .. 
+ls -h = display in human readable format 
+ls -R = R means Recursive. It will list all files and directories including sub directory contents also. By default ls will display only direct contents but not sub directory contents. 
+cd /  = to move to root directory
+cd  = to move to 
+cd.. 
+pwd = present working directory
+rmdir = remove folder or directory
+mkdir = create folder or directory
+touch = create files
+clear = to clear the terminal
+mkdir -p folder1/folder2/folder3 = to create one folder within another folder and so on.
+cp (copy)
+$ cp source_file destination_file = ) To Copy from File1 to File2 (File to File)  
+$ cp file1 file2 output = To Copy File to Directory:  
+$ cp dir1/* dir2 = To Copy all Files of One Directory to another Directory: 
+$ cp dir1 dir2 = To Copy Total Directory to another Directory: 
+$ cp -r dir1 dir2 dir3 dir4 dir5 =  To Copy Multiple Directories into a Directories:  
+mv (Moving and Renaming Directories)
+$ mv oldname newname Eg: $ file1.txt file2.txt = Renaming of files: 
+$ mv dir1 dir2 = Renaming of Directories: 
+$ mv a.txt b.txt c.txt output = Moving files to directory: 
+$ mv dir1/* dir2 =  Moving of all files from one directory to another directory: 
+$ mv dir1 dir2 = Moving total directory to another directory: 
